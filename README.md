@@ -1,2 +1,5 @@
 # pantheon-build-tools-ci
-Add VNC, pa11y, lighthouse, and other tools for CI on pantheon
+Add pa11y, lighthouse, gulp, and other tools for CI on pantheon
+
+# Build it
+docker build -t ptmkenny/pantheon-build-tools-ci --build-arg PHPVERSION=7.4 .
