@@ -1,4 +1,5 @@
 ARG PHPVERSION=7.4
+# @TODO: PHP 8.0 is not supported as is.  Pantheon build fails; may need to update to Build Tools 3.
 
 # https://github.com/pantheon-systems/docker-build-tools-ci/tree/7.x
 FROM quay.io/pantheon-public/build-tools-ci:7.x-php${PHPVERSION}
